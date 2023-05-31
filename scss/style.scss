@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background: #202C36;
+
+    .desk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 45px;
+    
+
+        .block1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 80px;
+            background: #2B3844;
+
+            .b1{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 1280px;
+                height: 33px;
+
+                h1{
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 24px;
+                    line-height: 33px;
+                    color: #FFFFFF;
+                }
+
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 105.5px;
+
+                    img{
+                        margin-top: -5px;
+                    }
+
+                    p{
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 22px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+
+        .block2{
+            width: 1280px;
+            height: 56px;
+            margin-top: 48px;
+
+            form{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                .b11{
+                
+                    input{
+                        // margin-top: 35px;
+                        height: 100%;
+                        padding: 18px 270px 18px 74px;
+                        background: #2B3844;
+                        box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+                        border-radius: 5px;
+                        outline: none;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: #FFFFFF;
+                    }
+                }
+    
+                .b12{
+                    select{
+                        margin-left: 115px;
+                        // margin-bottom: -160px;
+                        padding: 18px 18px 18px 24px;
+                        height: 100%;
+                        background: #2B3844;
+                        box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+                        border-radius: 5px;
+                        outline: none;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: #FFFFFF;
+                        transition: 0.3s;
+
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+
+        .block3{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            column-gap: 67px;
+            row-gap: 75px;
+            margin-top: 49px;
+            height: 739px;
+            width: 1280px;
+
+            .b3{
+                height: 336px;
+                width: 264px;
+                background: #2B3844;
+                box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+                border-radius: 5px;
+
+                img{
+                    border-radius: 5px 5px 0px 0px;
+                    width: 265px;
+                    height: 160px;
+                }
+
+                h4{
+                    margin-top: 24px;
+                    margin-left: 24px;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #FFFFFF;
+                }
+
+                .b3p{
+                    margin-top: 16px;
+                }
+
+                p{
+                    margin-top: 8px;
+                    margin-left: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #FFFFFF;
+
+                    span{
+                        color: #bababa;
+                    }
+                }
+            }
+        }
+    }
+}
